@@ -1,0 +1,527 @@
+{
+ "actions": [],
+ "allow_rename": 0,
+ "creation": "2026-11-26 10:00:00.000000",
+ "doctype": "DocType",
+ "editable_grid": 0,
+ "engine": "InnoDB",
+ "field_order": [
+  "general_section",
+  "company",
+  "freelancer_supplier_group",
+  "general_col",
+  "default_season",
+  "freelancer_service_item",
+  "rating_section",
+  "min_level",
+  "rating_window",
+  "initial_level_method",
+  "suspension_rejections",
+  "rating_col",
+  "acceptance_threshold",
+  "weight_quality",
+  "weight_compliance",
+  "weight_punctuality",
+  "weight_manager",
+  "bands_section",
+  "quality_bands",
+  "punctuality_section",
+  "checkin_grace_minutes",
+  "checkin_penalty_step_minutes",
+  "punctuality_col",
+  "max_checkin_penalty",
+  "late_delivery_penalty",
+  "workload_section",
+  "enable_workload_rule",
+  "workload_basis",
+  "workload_col",
+  "workload_pct",
+  "workload_min_average",
+  "workload_fixed_tolerance",
+  "quota_section",
+  "require_quota",
+  "rejected_days_consume_quota",
+  "quota_col",
+  "quota_alert_pct",
+  "exception_section",
+  "enforce_segregation",
+  "exception_approvers",
+  "signoff_section",
+  "signoff_steps",
+  "payment_section",
+  "payment_day",
+  "auto_generate_invoices",
+  "payment_col",
+  "auto_submit_invoices",
+  "po_section",
+  "enable_po_approval",
+  "require_budget_check",
+  "budget_alert_pct",
+  "po_col",
+  "po_tier1_limit",
+  "po_tier1_role",
+  "po_tier2_limit",
+  "po_tier2_role",
+  "po_tier3_role"
+ ],
+ "fields": [
+  {
+   "fieldname": "general_section",
+   "fieldtype": "Section Break",
+   "label": "General"
+  },
+  {
+   "fieldname": "company",
+   "fieldtype": "Link",
+   "label": "Default Company",
+   "options": "Company"
+  },
+  {
+   "fieldname": "freelancer_supplier_group",
+   "fieldtype": "Link",
+   "label": "Freelancer Supplier Group",
+   "options": "Supplier Group"
+  },
+  {
+   "fieldname": "general_col",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "default_season",
+   "fieldtype": "Link",
+   "label": "Default Rate Season",
+   "options": "Rate Season"
+  },
+  {
+   "fieldname": "freelancer_service_item",
+   "fieldtype": "Link",
+   "label": "Freelancer Service Item",
+   "options": "Item",
+   "description": "Non-stock service item used on freelancer purchase invoices."
+  },
+  {
+   "fieldname": "rating_section",
+   "fieldtype": "Section Break",
+   "label": "Eligibility & Rating"
+  },
+  {
+   "fieldname": "min_level",
+   "fieldtype": "Float",
+   "label": "Minimum Contracting Level",
+   "default": "3.5",
+   "precision": "2"
+  },
+  {
+   "fieldname": "rating_window",
+   "fieldtype": "Int",
+   "label": "Rolling Rating Window (orders)",
+   "default": "10"
+  },
+  {
+   "fieldname": "initial_level_method",
+   "fieldtype": "Select",
+   "label": "Initial Level Method",
+   "options": "Pad with initial level\nHold initial level until window is full",
+   "default": "Pad with initial level"
+  },
+  {
+   "fieldname": "suspension_rejections",
+   "fieldtype": "Int",
+   "label": "Rejections per Month to Suspend",
+   "default": "3"
+  },
+  {
+   "fieldname": "rating_col",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "acceptance_threshold",
+   "fieldtype": "Percent",
+   "label": "Acceptance Threshold %",
+   "default": "60"
+  },
+  {
+   "fieldname": "weight_quality",
+   "fieldtype": "Percent",
+   "label": "Weight: Quality",
+   "default": "60"
+  },
+  {
+   "fieldname": "weight_compliance",
+   "fieldtype": "Percent",
+   "label": "Weight: Output Compliance",
+   "default": "15"
+  },
+  {
+   "fieldname": "weight_punctuality",
+   "fieldtype": "Percent",
+   "label": "Weight: Punctuality",
+   "default": "15"
+  },
+  {
+   "fieldname": "weight_manager",
+   "fieldtype": "Percent",
+   "label": "Weight: Manager Assessment",
+   "default": "10"
+  },
+  {
+   "fieldname": "bands_section",
+   "fieldtype": "Section Break",
+   "label": "Quality Score Bands"
+  },
+  {
+   "fieldname": "quality_bands",
+   "fieldtype": "Table",
+   "label": "Quality Bands",
+   "options": "CrewFlow Quality Band"
+  },
+  {
+   "fieldname": "punctuality_section",
+   "fieldtype": "Section Break",
+   "label": "Punctuality Scoring",
+   "collapsible": 1
+  },
+  {
+   "fieldname": "checkin_grace_minutes",
+   "fieldtype": "Int",
+   "label": "Check-in Grace (minutes)",
+   "default": "15"
+  },
+  {
+   "fieldname": "checkin_penalty_step_minutes",
+   "fieldtype": "Int",
+   "label": "Check-in Penalty Step (minutes)",
+   "default": "30"
+  },
+  {
+   "fieldname": "punctuality_col",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "max_checkin_penalty",
+   "fieldtype": "Float",
+   "label": "Max Check-in Penalty (points)",
+   "default": "2"
+  },
+  {
+   "fieldname": "late_delivery_penalty",
+   "fieldtype": "Float",
+   "label": "Late Delivery Penalty (points)",
+   "default": "2"
+  },
+  {
+   "fieldname": "workload_section",
+   "fieldtype": "Section Break",
+   "label": "Workload Balance Rule"
+  },
+  {
+   "fieldname": "enable_workload_rule",
+   "fieldtype": "Check",
+   "label": "Enable Workload Rule",
+   "default": "1"
+  },
+  {
+   "fieldname": "workload_basis",
+   "fieldtype": "Select",
+   "label": "Workload Basis",
+   "options": "Agreement lifetime\nCalendar month",
+   "default": "Agreement lifetime"
+  },
+  {
+   "fieldname": "workload_col",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "workload_pct",
+   "fieldtype": "Percent",
+   "label": "Max % Above Peer Average",
+   "default": "30"
+  },
+  {
+   "fieldname": "workload_min_average",
+   "fieldtype": "Float",
+   "label": "Apply % Rule from Average (days)",
+   "default": "10"
+  },
+  {
+   "fieldname": "workload_fixed_tolerance",
+   "fieldtype": "Float",
+   "label": "Fixed Tolerance below that (days)",
+   "default": "3"
+  },
+  {
+   "fieldname": "quota_section",
+   "fieldtype": "Section Break",
+   "label": "Quota Control"
+  },
+  {
+   "fieldname": "require_quota",
+   "fieldtype": "Check",
+   "label": "Block Orders without a Quota Row",
+   "default": "1"
+  },
+  {
+   "fieldname": "rejected_days_consume_quota",
+   "fieldtype": "Check",
+   "label": "Rejected Days Consume Quota",
+   "default": "1"
+  },
+  {
+   "fieldname": "quota_col",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "quota_alert_pct",
+   "fieldtype": "Percent",
+   "label": "Quota Alert at %",
+   "default": "80"
+  },
+  {
+   "fieldname": "exception_section",
+   "fieldtype": "Section Break",
+   "label": "Exceptions & Segregation of Duties"
+  },
+  {
+   "fieldname": "enforce_segregation",
+   "fieldtype": "Check",
+   "label": "Enforce Segregation of Duties",
+   "default": "1"
+  },
+  {
+   "fieldname": "exception_approvers",
+   "fieldtype": "Table",
+   "label": "Exception Approvers",
+   "options": "CrewFlow Exception Approver"
+  },
+  {
+   "fieldname": "signoff_section",
+   "fieldtype": "Section Break",
+   "label": "Work Order Sign-offs"
+  },
+  {
+   "fieldname": "signoff_steps",
+   "fieldtype": "Table",
+   "label": "Sign-off Steps",
+   "options": "CrewFlow Sign-off Step",
+   "description": "Extra signatures copied onto every new work order. Required steps gate issue, QC recording or QC approval."
+  },
+  {
+   "fieldname": "payment_section",
+   "fieldtype": "Section Break",
+   "label": "Freelancer Payment Cycle"
+  },
+  {
+   "fieldname": "payment_day",
+   "fieldtype": "Int",
+   "label": "Payment Day of Month",
+   "default": "10"
+  },
+  {
+   "fieldname": "auto_generate_invoices",
+   "fieldtype": "Check",
+   "label": "Auto-generate Monthly Invoices",
+   "default": "1"
+  },
+  {
+   "fieldname": "payment_col",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "auto_submit_invoices",
+   "fieldtype": "Check",
+   "label": "Auto-submit Generated Invoices",
+   "default": "0"
+  },
+  {
+   "fieldname": "po_section",
+   "fieldtype": "Section Break",
+   "label": "Purchase Order Approval"
+  },
+  {
+   "fieldname": "enable_po_approval",
+   "fieldtype": "Check",
+   "label": "Enable Amount-based PO Approval",
+   "default": "0"
+  },
+  {
+   "fieldname": "require_budget_check",
+   "fieldtype": "Check",
+   "label": "Require Finance Budget Check",
+   "default": "1"
+  },
+  {
+   "fieldname": "budget_alert_pct",
+   "fieldtype": "Percent",
+   "label": "Budget Alert at %",
+   "default": "80"
+  },
+  {
+   "fieldname": "po_col",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "po_tier1_limit",
+   "fieldtype": "Currency",
+   "label": "Tier 1 Limit (base currency)",
+   "default": "25000"
+  },
+  {
+   "fieldname": "po_tier1_role",
+   "fieldtype": "Link",
+   "label": "Tier 1 Approver Role",
+   "options": "Role"
+  },
+  {
+   "fieldname": "po_tier2_limit",
+   "fieldtype": "Currency",
+   "label": "Tier 2 Limit (base currency)",
+   "default": "100000"
+  },
+  {
+   "fieldname": "po_tier2_role",
+   "fieldtype": "Link",
+   "label": "Tier 2 Approver Role",
+   "options": "Role"
+  },
+  {
+   "fieldname": "po_tier3_role",
+   "fieldtype": "Link",
+   "label": "Above Tier 2 Approver Role",
+   "options": "Role"
+  }
+ ],
+ "index_web_pages_for_search": 0,
+ "istable": 0,
+ "issingle": 1,
+ "is_submittable": 0,
+ "links": [],
+ "modified": "2026-11-26 10:00:00.000000",
+ "modified_by": "Administrator",
+ "module": "CrewFlow",
+ "name": "CrewFlow Settings",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "role": "System Manager",
+   "permlevel": 0,
+   "read": 1,
+   "write": 1,
+   "create": 1,
+   "delete": 1,
+   "report": 1,
+   "export": 1,
+   "print": 1,
+   "email": 1,
+   "share": 1
+  },
+  {
+   "role": "CrewFlow Admin",
+   "permlevel": 0,
+   "read": 1,
+   "write": 1,
+   "create": 1,
+   "delete": 1,
+   "report": 1,
+   "export": 1,
+   "print": 1,
+   "email": 1,
+   "share": 1
+  },
+  {
+   "role": "CrewFlow Executive",
+   "permlevel": 0,
+   "read": 1,
+   "write": 0,
+   "create": 0,
+   "delete": 0,
+   "report": 1,
+   "export": 1,
+   "print": 1,
+   "email": 1,
+   "share": 0
+  },
+  {
+   "role": "CrewFlow Projects Director",
+   "permlevel": 0,
+   "read": 1,
+   "write": 0,
+   "create": 0,
+   "delete": 0,
+   "report": 1,
+   "export": 1,
+   "print": 1,
+   "email": 1,
+   "share": 0
+  },
+  {
+   "role": "CrewFlow Production Manager",
+   "permlevel": 0,
+   "read": 1,
+   "write": 0,
+   "create": 0,
+   "delete": 0,
+   "report": 1,
+   "export": 1,
+   "print": 1,
+   "email": 1,
+   "share": 0
+  },
+  {
+   "role": "CrewFlow Project Manager",
+   "permlevel": 0,
+   "read": 1,
+   "write": 0,
+   "create": 0,
+   "delete": 0,
+   "report": 1,
+   "export": 1,
+   "print": 1,
+   "email": 1,
+   "share": 0
+  },
+  {
+   "role": "CrewFlow Coordinator",
+   "permlevel": 0,
+   "read": 1,
+   "write": 0,
+   "create": 0,
+   "delete": 0,
+   "report": 1,
+   "export": 1,
+   "print": 1,
+   "email": 1,
+   "share": 0
+  },
+  {
+   "role": "CrewFlow Review Officer",
+   "permlevel": 0,
+   "read": 1,
+   "write": 0,
+   "create": 0,
+   "delete": 0,
+   "report": 1,
+   "export": 1,
+   "print": 1,
+   "email": 1,
+   "share": 0
+  },
+  {
+   "role": "CrewFlow Finance",
+   "permlevel": 0,
+   "read": 1,
+   "write": 0,
+   "create": 0,
+   "delete": 0,
+   "report": 1,
+   "export": 1,
+   "print": 1,
+   "email": 1,
+   "share": 0
+  }
+ ],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1,
+ "quick_entry": 0
+}

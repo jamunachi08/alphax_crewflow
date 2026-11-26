@@ -1,0 +1,205 @@
+{
+ "actions": [],
+ "allow_rename": 0,
+ "creation": "2026-11-26 10:00:00.000000",
+ "doctype": "DocType",
+ "editable_grid": 0,
+ "engine": "InnoDB",
+ "field_order": [
+  "season_name",
+  "season_name_ar",
+  "is_default",
+  "hijri_based",
+  "hijri_start_month",
+  "hijri_start_day",
+  "hijri_end_month",
+  "hijri_end_day"
+ ],
+ "fields": [
+  {
+   "fieldname": "season_name",
+   "fieldtype": "Data",
+   "label": "Season",
+   "reqd": 1,
+   "unique": 1,
+   "in_list_view": 1
+  },
+  {
+   "fieldname": "season_name_ar",
+   "fieldtype": "Data",
+   "label": "Season (Arabic)",
+   "in_list_view": 1
+  },
+  {
+   "fieldname": "is_default",
+   "fieldtype": "Check",
+   "label": "Default Season"
+  },
+  {
+   "fieldname": "hijri_based",
+   "fieldtype": "Check",
+   "label": "Hijri-based Period"
+  },
+  {
+   "fieldname": "hijri_start_month",
+   "fieldtype": "Int",
+   "label": "Hijri Start Month",
+   "depends_on": "hijri_based"
+  },
+  {
+   "fieldname": "hijri_start_day",
+   "fieldtype": "Int",
+   "label": "Hijri Start Day",
+   "depends_on": "hijri_based"
+  },
+  {
+   "fieldname": "hijri_end_month",
+   "fieldtype": "Int",
+   "label": "Hijri End Month",
+   "depends_on": "hijri_based"
+  },
+  {
+   "fieldname": "hijri_end_day",
+   "fieldtype": "Int",
+   "label": "Hijri End Day",
+   "depends_on": "hijri_based",
+   "description": "Clamped to the actual month length."
+  }
+ ],
+ "index_web_pages_for_search": 0,
+ "istable": 0,
+ "issingle": 0,
+ "is_submittable": 0,
+ "links": [],
+ "modified": "2026-11-26 10:00:00.000000",
+ "modified_by": "Administrator",
+ "module": "CrewFlow",
+ "name": "Rate Season",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "role": "System Manager",
+   "permlevel": 0,
+   "read": 1,
+   "write": 1,
+   "create": 1,
+   "delete": 1,
+   "report": 1,
+   "export": 1,
+   "print": 1,
+   "email": 1,
+   "share": 1
+  },
+  {
+   "role": "CrewFlow Admin",
+   "permlevel": 0,
+   "read": 1,
+   "write": 1,
+   "create": 1,
+   "delete": 1,
+   "report": 1,
+   "export": 1,
+   "print": 1,
+   "email": 1,
+   "share": 1
+  },
+  {
+   "role": "CrewFlow Projects Director",
+   "permlevel": 0,
+   "read": 1,
+   "write": 1,
+   "create": 1,
+   "delete": 0,
+   "report": 1,
+   "export": 1,
+   "print": 1,
+   "email": 1,
+   "share": 0
+  },
+  {
+   "role": "CrewFlow Executive",
+   "permlevel": 0,
+   "read": 1,
+   "write": 0,
+   "create": 0,
+   "delete": 0,
+   "report": 1,
+   "export": 1,
+   "print": 1,
+   "email": 1,
+   "share": 0
+  },
+  {
+   "role": "CrewFlow Production Manager",
+   "permlevel": 0,
+   "read": 1,
+   "write": 0,
+   "create": 0,
+   "delete": 0,
+   "report": 1,
+   "export": 1,
+   "print": 1,
+   "email": 1,
+   "share": 0
+  },
+  {
+   "role": "CrewFlow Project Manager",
+   "permlevel": 0,
+   "read": 1,
+   "write": 0,
+   "create": 0,
+   "delete": 0,
+   "report": 1,
+   "export": 1,
+   "print": 1,
+   "email": 1,
+   "share": 0
+  },
+  {
+   "role": "CrewFlow Coordinator",
+   "permlevel": 0,
+   "read": 1,
+   "write": 0,
+   "create": 0,
+   "delete": 0,
+   "report": 1,
+   "export": 1,
+   "print": 1,
+   "email": 1,
+   "share": 0
+  },
+  {
+   "role": "CrewFlow Review Officer",
+   "permlevel": 0,
+   "read": 1,
+   "write": 0,
+   "create": 0,
+   "delete": 0,
+   "report": 1,
+   "export": 1,
+   "print": 1,
+   "email": 1,
+   "share": 0
+  },
+  {
+   "role": "CrewFlow Finance",
+   "permlevel": 0,
+   "read": 1,
+   "write": 0,
+   "create": 0,
+   "delete": 0,
+   "report": 1,
+   "export": 1,
+   "print": 1,
+   "email": 1,
+   "share": 0
+  }
+ ],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1,
+ "quick_entry": 1,
+ "autoname": "field:season_name",
+ "naming_rule": "By fieldname"
+}

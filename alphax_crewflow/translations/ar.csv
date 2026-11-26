@@ -1,0 +1,391 @@
+Above Maximum,أعلى من الحد الأقصى
+Above Tier 2 Approver Role,دور المعتمد فوق المستوى الثاني
+Acceptance %,نسبة القبول %
+Acceptance Threshold %,حد القبول %
+Accepted,مقبول
+Accepted Units,الوحدات المقبولة
+Actions,إجراءات
+Active,نشط
+Actual Check-in,وقت الحضور الفعلي
+Agreed Day Rate,الأجر اليومي المتفق عليه
+Agreement lifetime,مدة الاتفاقية
+Alert Days Before Expiry,أيام التنبيه قبل الانتهاء
+Amended From,معدل من
+Amount,المبلغ
+Apply % Rule from Average (days),تطبيق قاعدة النسبة من متوسط (أيام)
+Approval,الاعتماد
+Approve,اعتماد
+Approve QC,اعتماد فحص الجودة
+Approve Quality Acceptance,اعتماد قبول الجودة
+Approved,معتمد
+Approved By,اعتمد بواسطة
+Approved On,تاريخ الاعتماد
+Approver Role,دور المعتمد
+Assignment,التكليف
+Auto-generate Monthly Invoices,إنشاء الفواتير الشهرية تلقائياً
+Auto-submit Generated Invoices,ترحيل الفواتير المنشأة تلقائياً
+Availability,التوفر
+Availability Notes,ملاحظات التوفر
+Avg Score,متوسط الدرجة
+Avg. Paid (last 12 months),متوسط المدفوع (آخر 12 شهراً)
+BOQ Code,رمز بند جدول الكميات
+BOQ Items,بنود جدول الكميات
+Band Maximum,الحد الأقصى للنطاق
+Band Minimum,الحد الأدنى للنطاق
+Band Position,الموقع من النطاق
+Bands,النطاقات
+Bank,البنك
+Bank & Portfolio,البنك ومعرض الأعمال
+Below Minimum,أقل من الحد الأدنى
+Block Orders without a Quota Row,منع الأوامر بدون حصة محددة
+Blocked,محظور
+Booked,محجوز
+Budget Alert at %,تنبيه الميزانية عند %
+Budget Overrun,تجاوز الميزانية
+Business Line,خط الأعمال
+Calendar month,شهر ميلادي
+Camera / Technical Instructions,تعليمات الكاميرا / الفنية
+Cancellation Reason,سبب الإلغاء
+Cancelled,ملغي
+Cannot issue Work Order,لا يمكن إصدار أمر العمل
+Check Item,بند الفحص
+Check Item (Arabic),بند الفحص (عربي)
+Check-in Grace (minutes),مهلة الحضور (دقائق)
+Check-in Penalty Step (minutes),خطوة جزاء التأخير (دقائق)
+Checks,الفحوصات
+City,المدينة
+Client,العميل
+Client Contract (Sales Order),عقد العميل (أمر البيع)
+Client Rate,سعر العميل
+Close Agreement,إغلاق الاتفاقية
+Closed,مغلق
+Company,الشركة
+Compliance,المطابقة
+Compliant,مطابق
+Conduct and cooperation,السلوك والتعاون
+Confirm Budget Available,تأكيد توفر الميزانية
+Consumed,المستهلك
+Consumption %,نسبة الاستهلاك %
+Contract Approval,اعتماد العقد
+Contract Qty,الكمية التعاقدية
+Contract Value,قيمة العقد
+Contracts & Rates,العقود والأسعار
+Controls,الضوابط
+Country of Residence,بلد الإقامة
+CrewFlow,CrewFlow
+CrewFlow Exception,استثناء CrewFlow
+CrewFlow Exception Approver,معتمد استثناءات CrewFlow
+CrewFlow Quality Band,نطاق جودة CrewFlow
+CrewFlow Settings,إعدادات CrewFlow
+CrewFlow Sign-off Step,خطوة توقيع CrewFlow
+CrewFlow Work Order,أمر عمل CrewFlow
+Currency,العملة
+Current Level,المستوى الحالي
+Daily Work Order,أمر العمل اليومي
+Daily Work Order Check,فحص أمر العمل اليومي
+Daily Work Order Output,مخرجات أمر العمل اليومي
+Daily Work Order Rejection,رفض أمر العمل اليومي
+Daily Work Order Sign-off,توقيع أمر العمل اليومي
+Day Rate,الأجر اليومي
+Day Rates,الأجور اليومية
+Default Company,الشركة الافتراضية
+Default Minimum Output,الحد الأدنى الافتراضي للمخرجات
+Default Rate Season,موسم التسعير الافتراضي
+Default Season,الموسم الافتراضي
+Default Work Order Template,قالب أمر العمل الافتراضي
+Delivered,مُسلّم
+Delivered Format(s),الصيغ المسلمة
+Delivered On,تاريخ التسليم
+Delivered Qty,الكمية المسلمة
+Delivered Size (GB),حجم الملفات المسلمة (جيجابايت)
+Delivered Units,الوحدات المسلمة
+Delivery Due,موعد التسليم
+Delivery Due (hours after work date start),موعد التسليم (ساعات من بداية يوم العمل)
+Delivery Method,طريقة التسليم
+Delivery Received By,استلم التسليم
+Description,الوصف
+Draft,مسودة
+Electronic,إلكتروني
+Electronic and Physical,إلكتروني ويدوي
+Eligibility & Rating,الأهلية والتقييم
+Email,البريد الإلكتروني
+Enable Amount-based PO Approval,تفعيل اعتماد أوامر الشراء حسب المبلغ
+Enable Workload Rule,تفعيل قاعدة توازن العمل
+End Date,تاريخ الانتهاء
+Enforce Segregation of Duties,تطبيق الفصل بين المهام
+Engagement,نوع التعاقد
+Enter a Cancellation Reason before cancelling.,أدخل سبب الإلغاء قبل الإلغاء.
+Equipment,المعدات
+Equipment (Arabic),المعدات (عربي)
+Equipment Owned,المعدات المملوكة
+Equipment Type,نوع المعدات
+Exception Approvers,معتمدو الاستثناءات
+Exception Type,نوع الاستثناء
+Exceptions & Segregation of Duties,الاستثناءات والفصل بين المهام
+Exceptions Applied,الاستثناءات المطبقة
+Executed,منفذ
+Execution,التنفيذ
+Expired,منتهي
+Expiry Alert Sent,تم إرسال تنبيه الانتهاء
+Finance must confirm budget availability before this order is approved.,يجب أن تؤكد المالية توفر الميزانية قبل اعتماد هذا الأمر.
+Fixed Tolerance below that (days),سماحية ثابتة دون ذلك (أيام)
+Format(s),الصيغ
+Formats,الصيغ
+Framework,اتفاقية إطارية
+Framework Agreement,اتفاقية إطارية
+Framework Agreement Member,عضو الاتفاقية الإطارية
+Freelancer,المستقل
+Freelancer Availability,توفر المستقلين
+Freelancer Equipment,معدات المستقل
+Freelancer Invoicing,فوترة المستقلين
+Freelancer Mobile,جوال المستقل
+Freelancer Name,اسم المستقل
+Freelancer Payment Cycle,دورة دفع المستقلين
+Freelancer Performance,أداء المستقلين
+Freelancer Profile,ملف المستقل
+Freelancer Rating Log,سجل تقييم المستقل
+Freelancer Service Item,صنف خدمة المستقل
+Freelancer Specialty,تخصص المستقل
+Freelancer Supplier Group,مجموعة موردي المستقلين
+Freelancer Unavailability,عدم توفر المستقل
+Freelancer is not an active member of Framework Agreement {0}.,المستقل ليس عضواً نشطاً في الاتفاقية الإطارية {0}.
+Freelancers,المستقلون
+Freelancers per Day,عدد المستقلين يومياً
+From,من
+From Date,من تاريخ
+From Month,من شهر
+General,عام
+Generate Freelancer Invoices,إنشاء فواتير المستقلين
+Gregorian Year,السنة الميلادية
+Hijri,هجري
+Hijri End Day,يوم النهاية الهجري
+Hijri End Month,شهر النهاية الهجري
+Hijri Start Day,يوم البداية الهجري
+Hijri Start Month,شهر البداية الهجري
+Hijri-based Period,فترة حسب التقويم الهجري
+Hold initial level until window is full,تثبيت المستوى الأولي حتى اكتمال النافذة
+IBAN,رقم الآيبان
+ID Number,رقم الهوية
+ID Type,نوع الهوية
+In Progress,قيد التنفيذ
+Inactive,غير نشط
+Include Blocked / Inactive,تضمين المحظورين / غير النشطين
+Initial Level (onboarding),المستوى الأولي (عند التسجيل)
+Initial Level Method,طريقة المستوى الأولي
+Instructions,التعليمات
+Issue,الإصدار
+Issued,صادر
+Issued By,أصدر بواسطة
+Issued On,تاريخ الإصدار
+Items,البنود
+Joined On,تاريخ الانضمام
+Justification,المبرر
+Last Rated On,آخر تقييم
+Late Delivery Penalty (points),جزاء التأخر في التسليم (نقاط)
+Level,المستوى
+Level & Rating,المستوى والتقييم
+Level After,المستوى بعد التقييم
+Level From,المستوى من
+Level To,المستوى إلى
+Level at Contracting,المستوى عند التعاقد
+Level at Issue,المستوى عند الإصدار
+Manager,المدير
+Manager Assessment (1-5),تقييم المدير (1-5)
+Manager Score,تقييم المدير
+Manual,يدوي
+Max % Above Peer Average,أقصى نسبة فوق متوسط الأقران
+Max Check-in Penalty (points),أقصى جزاء للحضور (نقاط)
+Max Duration (sec),أقصى مدة (ثانية)
+Maximum Rate,الحد الأقصى للسعر
+Members,الأعضاء
+Min Duration (sec),أقل مدة (ثانية)
+Minimum Acceptance %,الحد الأدنى للقبول %
+Minimum Contracting Level,الحد الأدنى لمستوى التعاقد
+Minimum Output Met,تحقق الحد الأدنى للمخرجات
+Minimum Qty,الحد الأدنى للكمية
+Minimum Rate,الحد الأدنى للسعر
+Mobile,الجوال
+Model / Description,الطراز / الوصف
+Month,الشهر
+Monthly Shooting-day Quota,حصة أيام العمل الشهرية
+Name,الاسم
+National ID,الهوية الوطنية
+Nationality,الجنسية
+Negotiated Rate,السعر المتفاوض عليه
+New Rate,السعر الجديد
+Notes,ملاحظات
+Off,إجازة
+Operations,العمليات
+Other,أخرى
+Output Compliance Score,درجة مطابقة المخرجات
+Output Compliance Score (1-5),درجة مطابقة المخرجات (1-5)
+Outputs,المخرجات
+Pad with initial level,إكمال النافذة بالمستوى الأولي
+Partial Acceptance,قبول جزئي
+Passport,جواز السفر
+Payment Day of Month,يوم الدفع من الشهر
+Pending,قيد الانتظار
+Pending Approval,بانتظار الاعتماد
+Personal & Contact,البيانات الشخصية والتواصل
+Physical,مادي
+Planned Days,الأيام المخططة
+Portal User,مستخدم البوابة
+Portfolio Link,رابط معرض الأعمال
+Post-closure Adjustment,تسوية بعد الإغلاق
+Post-facto Issue,إصدار بأثر رجعي
+Primary Output Unit,وحدة المخرجات الأساسية
+Project,المشروع
+Project BOQ,جدول كميات المشروع
+Project BOQ Item,بند جدول كميات المشروع
+Project BOQ Quota,حصة جدول كميات المشروع
+Project Contract,عقد مشروع
+Projects,المشاريع
+Punctuality,الالتزام بالمواعيد
+Punctuality Score,درجة الالتزام بالمواعيد
+Punctuality Scoring,احتساب الالتزام بالمواعيد
+Purchase Invoice,فاتورة المشتريات
+Purchase Order Approval,اعتماد أوامر الشراء
+QC,فحص الجودة
+QC Remarks,ملاحظات فحص الجودة
+QC Result,نتيجة فحص الجودة
+Qty,الكمية
+Qty Rejected,الكمية المرفوضة
+Quality,الجودة
+Quality & Compliance Terms,شروط الجودة والامتثال
+Quality Acceptance,قبول الجودة
+Quality Bands,نطاقات الجودة
+Quality Score,درجة الجودة
+Quality Score Bands,نطاقات درجة الجودة
+Quota (days),الحصة (أيام)
+Quota Alert at %,تنبيه الحصة عند %
+Quota Consumption,استهلاك الحصص
+Quota Control,التحكم في الحصص
+Quota Overrun,تجاوز الحصة
+Quotas,الحصص
+Rate,السعر
+Rate Band,نطاق الأسعار
+Rate Band Item,بند نطاق الأسعار
+Rate Card,بطاقة الأسعار
+Rate Card Item,بند بطاقة الأسعار
+Rate Change,تغيير السعر
+Rate Depends on Equipment,السعر يعتمد على المعدات
+Rate Season,موسم التسعير
+Rate Source,مصدر السعر
+Rated Orders,الأوامر المقيمة
+Rated Work Orders,أوامر العمل المقيمة
+Rates,الأسعار
+Rating,التقييم
+Rating History,سجل التقييمات
+Rating weights must total 100%. Current total: {0}%,يجب أن يكون مجموع أوزان التقييم 100%. المجموع الحالي: {0}%
+Reason,السبب
+Reason (Arabic),السبب (عربي)
+Receipt,الاستلام
+Record Check-in,تسجيل الحضور
+Record Delivery,تسجيل التسليم
+Record QC,تسجيل فحص الجودة
+Record Quality Acceptance,تسجيل قبول الجودة
+Recorded By,سجل بواسطة
+Recorded On,تاريخ التسجيل
+Reference,المرجع
+Reference Type,نوع المرجع
+Reinstatement,إعادة التفعيل
+Rejected,مرفوض
+Rejected %,نسبة الرفض %
+Rejected Days Consume Quota,الأيام المرفوضة تستهلك الحصة
+Rejection Reason,سبب الرفض
+Rejection Reasons,أسباب الرفض
+Rejections,حالات الرفض
+Rejections per Month to Suspend,عدد حالات الرفض الشهرية للإيقاف
+Remaining,المتبقي
+Remarks,ملاحظات
+Replace the current outputs and checklist with the template?,استبدال المخرجات وقائمة الفحص الحالية بالقالب؟
+Reports,التقارير
+Request Exception,طلب استثناء
+Request Reinstatement,طلب إعادة تفعيل
+Requested By,طلب بواسطة
+Require Finance Budget Check,اشتراط تأكيد المالية للميزانية
+Required,إلزامي
+Required Format(s),الصيغ المطلوبة
+Required Output,المخرج المطلوب
+Required Outputs,المخرجات المطلوبة
+Required Outputs & Instructions,المخرجات المطلوبة والتعليمات
+Required sign-off missing: {0},توقيع إلزامي مفقود: {0}
+Requires an approved '{0}' exception.,يتطلب استثناء '{0}' معتمداً.
+Residence Permit,تصريح الإقامة
+Resolution / Quality,الدقة / الجودة
+Return to Review,إعادة للمراجعة
+Role,الدور
+Rolling Rating Window (orders),نافذة التقييم المتحركة (أوامر)
+Save QC,حفظ فحص الجودة
+Save the work order before signing.,احفظ أمر العمل قبل التوقيع.
+Scheduled Check-in,موعد الحضور
+Score (1-5),الدرجة (1-5)
+Season,الموسم
+Season (Arabic),الموسم (عربي)
+Season Calendar,تقويم المواسم
+Season Calendar Period,فترة تقويم المواسم
+Season Periods,فترات المواسم
+Segregation of duties: you cannot approve your own exception request.,الفصل بين المهام: لا يمكنك اعتماد طلب الاستثناء الخاص بك.
+"Segregation of duties: you issued or recorded this work order, so you cannot perform this step.",الفصل بين المهام: لقد أصدرت أو سجلت أمر العمل هذا، لذلك لا يمكنك تنفيذ هذه الخطوة.
+Setup,الإعداد
+Sign Off,توقيع
+Sign-off Steps,خطوات التوقيع
+Sign-off required,التوقيع مطلوب
+Sign-offs,التوقيعات
+Signed By,وقع بواسطة
+Signed On,تاريخ التوقيع
+Size (GB),الحجم (جيجابايت)
+Source,المصدر
+Specialty,التخصص
+Specialty (Arabic),التخصص (عربي)
+Stage,المرحلة
+Start Date,تاريخ البداية
+Status,الحالة
+Status Reason,سبب الحالة
+Step,الخطوة
+Suggest Hijri Periods,اقتراح الفترات الهجرية
+Supplier,المورد
+Suspended,موقوف
+Tax Resident,مقيم ضريبياً
+Technical Checklist,قائمة الفحص الفني
+Template Name,اسم القالب
+Template Name (Arabic),اسم القالب (عربي)
+Tier 1 Approver Role,دور معتمد المستوى الأول
+Tier 1 Limit (base currency),حد المستوى الأول (العملة الأساسية)
+Tier 2 Approver Role,دور معتمد المستوى الثاني
+Tier 2 Limit (base currency),حد المستوى الثاني (العملة الأساسية)
+Title,العنوان
+To,إلى
+To Date,إلى تاريخ
+To Month,إلى شهر
+UOM,وحدة القياس
+Unit,الوحدة
+Valid From,ساري من
+Valid To,ساري حتى
+View,عرض
+Weight: Manager Assessment,الوزن: تقييم المدير
+Weight: Output Compliance,الوزن: مطابقة المخرجات
+Weight: Punctuality,الوزن: الالتزام بالمواعيد
+Weight: Quality,الوزن: الجودة
+Weighted,المرجح
+Weighted Score,الدرجة المرجحة
+Will block on issue,سيتم المنع عند الإصدار
+Within Band,ضمن النطاق
+Work / Task Type,نوع العمل / المهمة
+Work Date,تاريخ العمل
+Work Order,أمر العمل
+Work Order Sign-offs,توقيعات أوامر العمل
+Work Order Template,قالب أمر العمل
+Work Order Template Check,بند فحص قالب أمر العمل
+Work Orders,أوامر العمل
+Work Type,نوع العمل
+Work Type (Arabic),نوع العمل (عربي)
+Work Zone,منطقة العمل
+Work Zone / Location,منطقة / موقع العمل
+Work date {0} is in the past. Work Orders must be issued before the work.,تاريخ العمل {0} في الماضي. يجب إصدار أوامر العمل قبل تنفيذ العمل.
+Workload Balance Rule,قاعدة توازن عبء العمل
+Workload Basis,أساس عبء العمل
+Workload Overrun,تجاوز عبء العمل
+You are not permitted to perform this action.,غير مسموح لك بتنفيذ هذا الإجراء.
+Zone,المنطقة
+Zone (Arabic),المنطقة (عربي)

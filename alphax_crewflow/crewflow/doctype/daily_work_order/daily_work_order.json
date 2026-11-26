@@ -1,0 +1,772 @@
+{
+ "actions": [],
+ "allow_rename": 0,
+ "creation": "2026-11-26 10:00:00.000000",
+ "doctype": "DocType",
+ "editable_grid": 0,
+ "engine": "InnoDB",
+ "field_order": [
+  "assignment_section",
+  "project",
+  "business_line",
+  "engagement_type",
+  "framework_agreement",
+  "project_contract",
+  "project_boq",
+  "boq_code",
+  "work_zone",
+  "assignment_col",
+  "work_date",
+  "work_type",
+  "equipment_type",
+  "freelancer",
+  "freelancer_name",
+  "freelancer_mobile",
+  "freelancer_level",
+  "season",
+  "status",
+  "rate_section",
+  "rate",
+  "currency",
+  "rate_col",
+  "rate_source",
+  "instructions_section",
+  "work_order_template",
+  "outputs",
+  "checks",
+  "instructions",
+  "instructions_col",
+  "scheduled_checkin",
+  "delivery_method",
+  "delivery_due",
+  "execution_section",
+  "issued_by",
+  "issued_on",
+  "execution_col",
+  "actual_checkin",
+  "delivered_on",
+  "delivery_received_by",
+  "signoff_section",
+  "sign_offs",
+  "qc_section",
+  "delivered_units",
+  "accepted_units",
+  "acceptance_pct",
+  "min_output_met",
+  "qc_result",
+  "qc_col",
+  "qc_recorded_by",
+  "qc_recorded_on",
+  "qc_approved_by",
+  "qc_approved_on",
+  "qc_remarks",
+  "rejection_section",
+  "rejections",
+  "rating_section",
+  "quality_score",
+  "compliance_score",
+  "rating_col",
+  "punctuality_score",
+  "manager_score",
+  "weighted_score",
+  "control_section",
+  "exceptions_used",
+  "purchase_invoice",
+  "control_col",
+  "cancellation_reason",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "assignment_section",
+   "fieldtype": "Section Break",
+   "label": "Assignment"
+  },
+  {
+   "fieldname": "project",
+   "fieldtype": "Link",
+   "label": "Project",
+   "options": "Project",
+   "reqd": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1
+  },
+  {
+   "fieldname": "business_line",
+   "fieldtype": "Link",
+   "label": "Business Line",
+   "options": "Cost Center",
+   "fetch_from": "project.cost_center",
+   "fetch_if_empty": 1
+  },
+  {
+   "fieldname": "engagement_type",
+   "fieldtype": "Select",
+   "label": "Engagement",
+   "options": "Framework\nProject Contract",
+   "reqd": 1,
+   "default": "Framework"
+  },
+  {
+   "fieldname": "framework_agreement",
+   "fieldtype": "Link",
+   "label": "Framework Agreement",
+   "options": "Framework Agreement",
+   "depends_on": "eval:doc.engagement_type=='Framework'",
+   "mandatory_depends_on": "eval:doc.engagement_type=='Framework'"
+  },
+  {
+   "fieldname": "project_contract",
+   "fieldtype": "Link",
+   "label": "Project Contract",
+   "options": "Project Contract",
+   "depends_on": "eval:doc.engagement_type=='Project Contract'",
+   "mandatory_depends_on": "eval:doc.engagement_type=='Project Contract'"
+  },
+  {
+   "fieldname": "project_boq",
+   "fieldtype": "Link",
+   "label": "Project BOQ",
+   "options": "Project BOQ"
+  },
+  {
+   "fieldname": "boq_code",
+   "fieldtype": "Data",
+   "label": "BOQ Code"
+  },
+  {
+   "fieldname": "work_zone",
+   "fieldtype": "Link",
+   "label": "Work Zone / Location",
+   "options": "Work Zone"
+  },
+  {
+   "fieldname": "assignment_col",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "work_date",
+   "fieldtype": "Date",
+   "label": "Work Date",
+   "reqd": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "bold": 1
+  },
+  {
+   "fieldname": "work_type",
+   "fieldtype": "Link",
+   "label": "Work Type",
+   "options": "Work Type",
+   "reqd": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1
+  },
+  {
+   "fieldname": "equipment_type",
+   "fieldtype": "Link",
+   "label": "Equipment",
+   "options": "Equipment Type"
+  },
+  {
+   "fieldname": "freelancer",
+   "fieldtype": "Link",
+   "label": "Freelancer",
+   "options": "Freelancer Profile",
+   "reqd": 1,
+   "in_standard_filter": 1
+  },
+  {
+   "fieldname": "freelancer_name",
+   "fieldtype": "Data",
+   "label": "Freelancer Name",
+   "fetch_from": "freelancer.freelancer_name",
+   "read_only": 1,
+   "in_list_view": 1
+  },
+  {
+   "fieldname": "freelancer_mobile",
+   "fieldtype": "Data",
+   "label": "Freelancer Mobile",
+   "fetch_from": "freelancer.mobile_no",
+   "read_only": 1
+  },
+  {
+   "fieldname": "freelancer_level",
+   "fieldtype": "Float",
+   "label": "Level at Issue",
+   "read_only": 1,
+   "precision": "2"
+  },
+  {
+   "fieldname": "season",
+   "fieldtype": "Link",
+   "label": "Season",
+   "options": "Rate Season",
+   "read_only": 1
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "Draft\nIssued\nExecuted\nDelivered\nPending Approval\nAccepted\nRejected\nCancelled",
+   "default": "Draft",
+   "read_only": 1,
+   "allow_on_submit": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "no_copy": 1,
+   "bold": 1
+  },
+  {
+   "fieldname": "rate_section",
+   "fieldtype": "Section Break",
+   "label": "Rate",
+   "permlevel": 1
+  },
+  {
+   "fieldname": "rate",
+   "fieldtype": "Currency",
+   "label": "Day Rate",
+   "options": "currency",
+   "read_only": 1,
+   "permlevel": 1,
+   "allow_on_submit": 1,
+   "no_copy": 1
+  },
+  {
+   "fieldname": "currency",
+   "fieldtype": "Link",
+   "label": "Currency",
+   "options": "Currency",
+   "read_only": 1,
+   "permlevel": 1
+  },
+  {
+   "fieldname": "rate_col",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "rate_source",
+   "fieldtype": "Data",
+   "label": "Rate Source",
+   "read_only": 1,
+   "permlevel": 1,
+   "no_copy": 1
+  },
+  {
+   "fieldname": "instructions_section",
+   "fieldtype": "Section Break",
+   "label": "Required Outputs & Instructions"
+  },
+  {
+   "fieldname": "work_order_template",
+   "fieldtype": "Link",
+   "label": "Work Order Template",
+   "options": "Work Order Template"
+  },
+  {
+   "fieldname": "outputs",
+   "fieldtype": "Table",
+   "label": "Required Outputs",
+   "options": "Daily Work Order Output",
+   "allow_on_submit": 1
+  },
+  {
+   "fieldname": "checks",
+   "fieldtype": "Table",
+   "label": "Technical Checklist",
+   "options": "Daily Work Order Check",
+   "allow_on_submit": 1
+  },
+  {
+   "fieldname": "instructions",
+   "fieldtype": "Text Editor",
+   "label": "Camera / Technical Instructions"
+  },
+  {
+   "fieldname": "instructions_col",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "scheduled_checkin",
+   "fieldtype": "Time",
+   "label": "Scheduled Check-in",
+   "reqd": 1
+  },
+  {
+   "fieldname": "delivery_method",
+   "fieldtype": "Select",
+   "label": "Delivery Method",
+   "options": "Electronic\nPhysical\nElectronic and Physical",
+   "default": "Electronic"
+  },
+  {
+   "fieldname": "delivery_due",
+   "fieldtype": "Datetime",
+   "label": "Delivery Due",
+   "reqd": 1
+  },
+  {
+   "fieldname": "execution_section",
+   "fieldtype": "Section Break",
+   "label": "Execution"
+  },
+  {
+   "fieldname": "issued_by",
+   "fieldtype": "Link",
+   "label": "Issued By",
+   "options": "User",
+   "read_only": 1,
+   "allow_on_submit": 1,
+   "no_copy": 1
+  },
+  {
+   "fieldname": "issued_on",
+   "fieldtype": "Datetime",
+   "label": "Issued On",
+   "read_only": 1,
+   "allow_on_submit": 1,
+   "no_copy": 1
+  },
+  {
+   "fieldname": "execution_col",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "actual_checkin",
+   "fieldtype": "Datetime",
+   "label": "Actual Check-in",
+   "read_only": 1,
+   "allow_on_submit": 1,
+   "no_copy": 1
+  },
+  {
+   "fieldname": "delivered_on",
+   "fieldtype": "Datetime",
+   "label": "Delivered On",
+   "read_only": 1,
+   "allow_on_submit": 1,
+   "no_copy": 1
+  },
+  {
+   "fieldname": "delivery_received_by",
+   "fieldtype": "Link",
+   "label": "Delivery Received By",
+   "options": "User",
+   "read_only": 1,
+   "allow_on_submit": 1,
+   "no_copy": 1
+  },
+  {
+   "fieldname": "signoff_section",
+   "fieldtype": "Section Break",
+   "label": "Sign-offs"
+  },
+  {
+   "fieldname": "sign_offs",
+   "fieldtype": "Table",
+   "label": "Sign-offs",
+   "options": "Daily Work Order Sign-off",
+   "read_only": 1,
+   "allow_on_submit": 1,
+   "no_copy": 1
+  },
+  {
+   "fieldname": "qc_section",
+   "fieldtype": "Section Break",
+   "label": "Quality Acceptance"
+  },
+  {
+   "fieldname": "delivered_units",
+   "fieldtype": "Int",
+   "label": "Delivered Units",
+   "read_only": 1,
+   "allow_on_submit": 1,
+   "no_copy": 1
+  },
+  {
+   "fieldname": "accepted_units",
+   "fieldtype": "Int",
+   "label": "Accepted Units",
+   "read_only": 1,
+   "allow_on_submit": 1,
+   "no_copy": 1
+  },
+  {
+   "fieldname": "acceptance_pct",
+   "fieldtype": "Percent",
+   "label": "Acceptance %",
+   "read_only": 1,
+   "allow_on_submit": 1,
+   "no_copy": 1
+  },
+  {
+   "fieldname": "min_output_met",
+   "fieldtype": "Check",
+   "label": "Minimum Output Met",
+   "read_only": 1,
+   "allow_on_submit": 1,
+   "no_copy": 1
+  },
+  {
+   "fieldname": "qc_result",
+   "fieldtype": "Select",
+   "label": "QC Result",
+   "options": "\nAccepted\nRejected",
+   "read_only": 1,
+   "allow_on_submit": 1,
+   "no_copy": 1,
+   "in_standard_filter": 1
+  },
+  {
+   "fieldname": "qc_col",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "qc_recorded_by",
+   "fieldtype": "Link",
+   "label": "Recorded By",
+   "options": "User",
+   "read_only": 1,
+   "allow_on_submit": 1,
+   "no_copy": 1
+  },
+  {
+   "fieldname": "qc_recorded_on",
+   "fieldtype": "Datetime",
+   "label": "Recorded On",
+   "read_only": 1,
+   "allow_on_submit": 1,
+   "no_copy": 1
+  },
+  {
+   "fieldname": "qc_approved_by",
+   "fieldtype": "Link",
+   "label": "Approved By",
+   "options": "User",
+   "read_only": 1,
+   "allow_on_submit": 1,
+   "no_copy": 1
+  },
+  {
+   "fieldname": "qc_approved_on",
+   "fieldtype": "Datetime",
+   "label": "Approved On",
+   "read_only": 1,
+   "allow_on_submit": 1,
+   "no_copy": 1
+  },
+  {
+   "fieldname": "qc_remarks",
+   "fieldtype": "Small Text",
+   "label": "QC Remarks",
+   "read_only": 1,
+   "allow_on_submit": 1,
+   "no_copy": 1
+  },
+  {
+   "fieldname": "rejection_section",
+   "fieldtype": "Section Break",
+   "label": "Rejection Reasons"
+  },
+  {
+   "fieldname": "rejections",
+   "fieldtype": "Table",
+   "label": "Rejections",
+   "options": "Daily Work Order Rejection",
+   "read_only": 1,
+   "allow_on_submit": 1,
+   "no_copy": 1
+  },
+  {
+   "fieldname": "rating_section",
+   "fieldtype": "Section Break",
+   "label": "Rating"
+  },
+  {
+   "fieldname": "quality_score",
+   "fieldtype": "Float",
+   "label": "Quality Score",
+   "read_only": 1,
+   "allow_on_submit": 1,
+   "no_copy": 1,
+   "precision": "2"
+  },
+  {
+   "fieldname": "compliance_score",
+   "fieldtype": "Float",
+   "label": "Output Compliance Score",
+   "read_only": 1,
+   "allow_on_submit": 1,
+   "no_copy": 1,
+   "precision": "2"
+  },
+  {
+   "fieldname": "rating_col",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "punctuality_score",
+   "fieldtype": "Float",
+   "label": "Punctuality Score",
+   "read_only": 1,
+   "allow_on_submit": 1,
+   "no_copy": 1,
+   "precision": "2"
+  },
+  {
+   "fieldname": "manager_score",
+   "fieldtype": "Float",
+   "label": "Manager Score",
+   "read_only": 1,
+   "allow_on_submit": 1,
+   "no_copy": 1,
+   "precision": "2"
+  },
+  {
+   "fieldname": "weighted_score",
+   "fieldtype": "Float",
+   "label": "Weighted Score",
+   "read_only": 1,
+   "allow_on_submit": 1,
+   "no_copy": 1,
+   "precision": "2",
+   "bold": 1
+  },
+  {
+   "fieldname": "control_section",
+   "fieldtype": "Section Break",
+   "label": "Controls",
+   "collapsible": 1
+  },
+  {
+   "fieldname": "exceptions_used",
+   "fieldtype": "Small Text",
+   "label": "Exceptions Applied",
+   "read_only": 1,
+   "allow_on_submit": 1,
+   "no_copy": 1
+  },
+  {
+   "fieldname": "purchase_invoice",
+   "fieldtype": "Link",
+   "label": "Purchase Invoice",
+   "options": "Purchase Invoice",
+   "read_only": 1,
+   "allow_on_submit": 1,
+   "no_copy": 1
+  },
+  {
+   "fieldname": "control_col",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "cancellation_reason",
+   "fieldtype": "Small Text",
+   "label": "Cancellation Reason",
+   "allow_on_submit": 1,
+   "no_copy": 1
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "options": "Daily Work Order",
+   "read_only": 1,
+   "no_copy": 1,
+   "print_hide": 1
+  }
+ ],
+ "index_web_pages_for_search": 0,
+ "istable": 0,
+ "issingle": 0,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2026-11-26 10:00:00.000000",
+ "modified_by": "Administrator",
+ "module": "CrewFlow",
+ "name": "Daily Work Order",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "role": "System Manager",
+   "permlevel": 0,
+   "read": 1,
+   "write": 1,
+   "create": 1,
+   "delete": 1,
+   "report": 1,
+   "export": 1,
+   "print": 1,
+   "email": 1,
+   "share": 1,
+   "submit": 1,
+   "cancel": 1,
+   "amend": 1
+  },
+  {
+   "role": "CrewFlow Admin",
+   "permlevel": 0,
+   "read": 1,
+   "write": 1,
+   "create": 1,
+   "delete": 1,
+   "report": 1,
+   "export": 1,
+   "print": 1,
+   "email": 1,
+   "share": 1,
+   "submit": 1,
+   "cancel": 1,
+   "amend": 1
+  },
+  {
+   "role": "CrewFlow Project Manager",
+   "permlevel": 0,
+   "read": 1,
+   "write": 1,
+   "create": 1,
+   "delete": 1,
+   "report": 1,
+   "export": 1,
+   "print": 1,
+   "email": 1,
+   "share": 0,
+   "submit": 1,
+   "cancel": 1,
+   "amend": 1
+  },
+  {
+   "role": "CrewFlow Coordinator",
+   "permlevel": 0,
+   "read": 1,
+   "write": 1,
+   "create": 1,
+   "delete": 1,
+   "report": 1,
+   "export": 1,
+   "print": 1,
+   "email": 1,
+   "share": 0,
+   "submit": 1,
+   "cancel": 1,
+   "amend": 1
+  },
+  {
+   "role": "CrewFlow Production Manager",
+   "permlevel": 0,
+   "read": 1,
+   "write": 1,
+   "create": 1,
+   "delete": 1,
+   "report": 1,
+   "export": 1,
+   "print": 1,
+   "email": 1,
+   "share": 0,
+   "submit": 1,
+   "cancel": 1,
+   "amend": 1
+  },
+  {
+   "role": "CrewFlow Projects Director",
+   "permlevel": 0,
+   "read": 1,
+   "write": 1,
+   "create": 1,
+   "delete": 1,
+   "report": 1,
+   "export": 1,
+   "print": 1,
+   "email": 1,
+   "share": 0,
+   "submit": 1,
+   "cancel": 1,
+   "amend": 1
+  },
+  {
+   "role": "CrewFlow Executive",
+   "permlevel": 0,
+   "read": 1,
+   "write": 1,
+   "create": 1,
+   "delete": 1,
+   "report": 1,
+   "export": 1,
+   "print": 1,
+   "email": 1,
+   "share": 0,
+   "submit": 1,
+   "cancel": 1,
+   "amend": 1
+  },
+  {
+   "role": "CrewFlow Review Officer",
+   "permlevel": 0,
+   "read": 1,
+   "write": 0,
+   "create": 0,
+   "delete": 0,
+   "report": 1,
+   "export": 1,
+   "print": 1,
+   "email": 1,
+   "share": 0
+  },
+  {
+   "role": "CrewFlow Finance",
+   "permlevel": 0,
+   "read": 1,
+   "write": 0,
+   "create": 0,
+   "delete": 0,
+   "report": 1,
+   "export": 1,
+   "print": 1,
+   "email": 1,
+   "share": 0
+  },
+  {
+   "role": "System Manager",
+   "permlevel": 1,
+   "read": 1,
+   "write": 1
+  },
+  {
+   "role": "CrewFlow Admin",
+   "permlevel": 1,
+   "read": 1,
+   "write": 1
+  },
+  {
+   "role": "CrewFlow Projects Director",
+   "permlevel": 1,
+   "read": 1,
+   "write": 0
+  },
+  {
+   "role": "CrewFlow Executive",
+   "permlevel": 1,
+   "read": 1,
+   "write": 0
+  },
+  {
+   "role": "CrewFlow Finance",
+   "permlevel": 1,
+   "read": 1,
+   "write": 0
+  }
+ ],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1,
+ "quick_entry": 0,
+ "autoname": "DWO-.YYYY.-.#####",
+ "naming_rule": "Expression (old style)",
+ "title_field": "freelancer_name",
+ "show_title_field_in_link": 0,
+ "search_fields": "freelancer_name,project,work_date,status",
+ "default_print_format": "CrewFlow Work Order"
+}

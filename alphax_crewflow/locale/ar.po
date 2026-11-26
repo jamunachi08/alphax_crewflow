@@ -1,0 +1,1178 @@
+# Arabic translations for AlphaX CrewFlow
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: ar\n"
+
+msgid "Above Maximum"
+msgstr "أعلى من الحد الأقصى"
+
+msgid "Above Tier 2 Approver Role"
+msgstr "دور المعتمد فوق المستوى الثاني"
+
+msgid "Acceptance %"
+msgstr "نسبة القبول %"
+
+msgid "Acceptance Threshold %"
+msgstr "حد القبول %"
+
+msgid "Accepted"
+msgstr "مقبول"
+
+msgid "Accepted Units"
+msgstr "الوحدات المقبولة"
+
+msgid "Actions"
+msgstr "إجراءات"
+
+msgid "Active"
+msgstr "نشط"
+
+msgid "Actual Check-in"
+msgstr "وقت الحضور الفعلي"
+
+msgid "Agreed Day Rate"
+msgstr "الأجر اليومي المتفق عليه"
+
+msgid "Agreement lifetime"
+msgstr "مدة الاتفاقية"
+
+msgid "Alert Days Before Expiry"
+msgstr "أيام التنبيه قبل الانتهاء"
+
+msgid "Amended From"
+msgstr "معدل من"
+
+msgid "Amount"
+msgstr "المبلغ"
+
+msgid "Apply % Rule from Average (days)"
+msgstr "تطبيق قاعدة النسبة من متوسط (أيام)"
+
+msgid "Approval"
+msgstr "الاعتماد"
+
+msgid "Approve"
+msgstr "اعتماد"
+
+msgid "Approve QC"
+msgstr "اعتماد فحص الجودة"
+
+msgid "Approve Quality Acceptance"
+msgstr "اعتماد قبول الجودة"
+
+msgid "Approved"
+msgstr "معتمد"
+
+msgid "Approved By"
+msgstr "اعتمد بواسطة"
+
+msgid "Approved On"
+msgstr "تاريخ الاعتماد"
+
+msgid "Approver Role"
+msgstr "دور المعتمد"
+
+msgid "Assignment"
+msgstr "التكليف"
+
+msgid "Auto-generate Monthly Invoices"
+msgstr "إنشاء الفواتير الشهرية تلقائياً"
+
+msgid "Auto-submit Generated Invoices"
+msgstr "ترحيل الفواتير المنشأة تلقائياً"
+
+msgid "Availability"
+msgstr "التوفر"
+
+msgid "Availability Notes"
+msgstr "ملاحظات التوفر"
+
+msgid "Avg Score"
+msgstr "متوسط الدرجة"
+
+msgid "Avg. Paid (last 12 months)"
+msgstr "متوسط المدفوع (آخر 12 شهراً)"
+
+msgid "BOQ Code"
+msgstr "رمز بند جدول الكميات"
+
+msgid "BOQ Items"
+msgstr "بنود جدول الكميات"
+
+msgid "Band Maximum"
+msgstr "الحد الأقصى للنطاق"
+
+msgid "Band Minimum"
+msgstr "الحد الأدنى للنطاق"
+
+msgid "Band Position"
+msgstr "الموقع من النطاق"
+
+msgid "Bands"
+msgstr "النطاقات"
+
+msgid "Bank"
+msgstr "البنك"
+
+msgid "Bank & Portfolio"
+msgstr "البنك ومعرض الأعمال"
+
+msgid "Below Minimum"
+msgstr "أقل من الحد الأدنى"
+
+msgid "Block Orders without a Quota Row"
+msgstr "منع الأوامر بدون حصة محددة"
+
+msgid "Blocked"
+msgstr "محظور"
+
+msgid "Booked"
+msgstr "محجوز"
+
+msgid "Budget Alert at %"
+msgstr "تنبيه الميزانية عند %"
+
+msgid "Budget Overrun"
+msgstr "تجاوز الميزانية"
+
+msgid "Business Line"
+msgstr "خط الأعمال"
+
+msgid "Calendar month"
+msgstr "شهر ميلادي"
+
+msgid "Camera / Technical Instructions"
+msgstr "تعليمات الكاميرا / الفنية"
+
+msgid "Cancellation Reason"
+msgstr "سبب الإلغاء"
+
+msgid "Cancelled"
+msgstr "ملغي"
+
+msgid "Cannot issue Work Order"
+msgstr "لا يمكن إصدار أمر العمل"
+
+msgid "Check Item"
+msgstr "بند الفحص"
+
+msgid "Check Item (Arabic)"
+msgstr "بند الفحص (عربي)"
+
+msgid "Check-in Grace (minutes)"
+msgstr "مهلة الحضور (دقائق)"
+
+msgid "Check-in Penalty Step (minutes)"
+msgstr "خطوة جزاء التأخير (دقائق)"
+
+msgid "Checks"
+msgstr "الفحوصات"
+
+msgid "City"
+msgstr "المدينة"
+
+msgid "Client"
+msgstr "العميل"
+
+msgid "Client Contract (Sales Order)"
+msgstr "عقد العميل (أمر البيع)"
+
+msgid "Client Rate"
+msgstr "سعر العميل"
+
+msgid "Close Agreement"
+msgstr "إغلاق الاتفاقية"
+
+msgid "Closed"
+msgstr "مغلق"
+
+msgid "Company"
+msgstr "الشركة"
+
+msgid "Compliance"
+msgstr "المطابقة"
+
+msgid "Compliant"
+msgstr "مطابق"
+
+msgid "Conduct and cooperation"
+msgstr "السلوك والتعاون"
+
+msgid "Confirm Budget Available"
+msgstr "تأكيد توفر الميزانية"
+
+msgid "Consumed"
+msgstr "المستهلك"
+
+msgid "Consumption %"
+msgstr "نسبة الاستهلاك %"
+
+msgid "Contract Approval"
+msgstr "اعتماد العقد"
+
+msgid "Contract Qty"
+msgstr "الكمية التعاقدية"
+
+msgid "Contract Value"
+msgstr "قيمة العقد"
+
+msgid "Contracts & Rates"
+msgstr "العقود والأسعار"
+
+msgid "Controls"
+msgstr "الضوابط"
+
+msgid "Country of Residence"
+msgstr "بلد الإقامة"
+
+msgid "CrewFlow"
+msgstr "CrewFlow"
+
+msgid "CrewFlow Exception"
+msgstr "استثناء CrewFlow"
+
+msgid "CrewFlow Exception Approver"
+msgstr "معتمد استثناءات CrewFlow"
+
+msgid "CrewFlow Quality Band"
+msgstr "نطاق جودة CrewFlow"
+
+msgid "CrewFlow Settings"
+msgstr "إعدادات CrewFlow"
+
+msgid "CrewFlow Sign-off Step"
+msgstr "خطوة توقيع CrewFlow"
+
+msgid "CrewFlow Work Order"
+msgstr "أمر عمل CrewFlow"
+
+msgid "Currency"
+msgstr "العملة"
+
+msgid "Current Level"
+msgstr "المستوى الحالي"
+
+msgid "Daily Work Order"
+msgstr "أمر العمل اليومي"
+
+msgid "Daily Work Order Check"
+msgstr "فحص أمر العمل اليومي"
+
+msgid "Daily Work Order Output"
+msgstr "مخرجات أمر العمل اليومي"
+
+msgid "Daily Work Order Rejection"
+msgstr "رفض أمر العمل اليومي"
+
+msgid "Daily Work Order Sign-off"
+msgstr "توقيع أمر العمل اليومي"
+
+msgid "Day Rate"
+msgstr "الأجر اليومي"
+
+msgid "Day Rates"
+msgstr "الأجور اليومية"
+
+msgid "Default Company"
+msgstr "الشركة الافتراضية"
+
+msgid "Default Minimum Output"
+msgstr "الحد الأدنى الافتراضي للمخرجات"
+
+msgid "Default Rate Season"
+msgstr "موسم التسعير الافتراضي"
+
+msgid "Default Season"
+msgstr "الموسم الافتراضي"
+
+msgid "Default Work Order Template"
+msgstr "قالب أمر العمل الافتراضي"
+
+msgid "Delivered"
+msgstr "مُسلّم"
+
+msgid "Delivered Format(s)"
+msgstr "الصيغ المسلمة"
+
+msgid "Delivered On"
+msgstr "تاريخ التسليم"
+
+msgid "Delivered Qty"
+msgstr "الكمية المسلمة"
+
+msgid "Delivered Size (GB)"
+msgstr "حجم الملفات المسلمة (جيجابايت)"
+
+msgid "Delivered Units"
+msgstr "الوحدات المسلمة"
+
+msgid "Delivery Due"
+msgstr "موعد التسليم"
+
+msgid "Delivery Due (hours after work date start)"
+msgstr "موعد التسليم (ساعات من بداية يوم العمل)"
+
+msgid "Delivery Method"
+msgstr "طريقة التسليم"
+
+msgid "Delivery Received By"
+msgstr "استلم التسليم"
+
+msgid "Description"
+msgstr "الوصف"
+
+msgid "Draft"
+msgstr "مسودة"
+
+msgid "Electronic"
+msgstr "إلكتروني"
+
+msgid "Electronic and Physical"
+msgstr "إلكتروني ويدوي"
+
+msgid "Eligibility & Rating"
+msgstr "الأهلية والتقييم"
+
+msgid "Email"
+msgstr "البريد الإلكتروني"
+
+msgid "Enable Amount-based PO Approval"
+msgstr "تفعيل اعتماد أوامر الشراء حسب المبلغ"
+
+msgid "Enable Workload Rule"
+msgstr "تفعيل قاعدة توازن العمل"
+
+msgid "End Date"
+msgstr "تاريخ الانتهاء"
+
+msgid "Enforce Segregation of Duties"
+msgstr "تطبيق الفصل بين المهام"
+
+msgid "Engagement"
+msgstr "نوع التعاقد"
+
+msgid "Enter a Cancellation Reason before cancelling."
+msgstr "أدخل سبب الإلغاء قبل الإلغاء."
+
+msgid "Equipment"
+msgstr "المعدات"
+
+msgid "Equipment (Arabic)"
+msgstr "المعدات (عربي)"
+
+msgid "Equipment Owned"
+msgstr "المعدات المملوكة"
+
+msgid "Equipment Type"
+msgstr "نوع المعدات"
+
+msgid "Exception Approvers"
+msgstr "معتمدو الاستثناءات"
+
+msgid "Exception Type"
+msgstr "نوع الاستثناء"
+
+msgid "Exceptions & Segregation of Duties"
+msgstr "الاستثناءات والفصل بين المهام"
+
+msgid "Exceptions Applied"
+msgstr "الاستثناءات المطبقة"
+
+msgid "Executed"
+msgstr "منفذ"
+
+msgid "Execution"
+msgstr "التنفيذ"
+
+msgid "Expired"
+msgstr "منتهي"
+
+msgid "Expiry Alert Sent"
+msgstr "تم إرسال تنبيه الانتهاء"
+
+msgid "Finance must confirm budget availability before this order is approved."
+msgstr "يجب أن تؤكد المالية توفر الميزانية قبل اعتماد هذا الأمر."
+
+msgid "Fixed Tolerance below that (days)"
+msgstr "سماحية ثابتة دون ذلك (أيام)"
+
+msgid "Format(s)"
+msgstr "الصيغ"
+
+msgid "Formats"
+msgstr "الصيغ"
+
+msgid "Framework"
+msgstr "اتفاقية إطارية"
+
+msgid "Framework Agreement"
+msgstr "اتفاقية إطارية"
+
+msgid "Framework Agreement Member"
+msgstr "عضو الاتفاقية الإطارية"
+
+msgid "Freelancer"
+msgstr "المستقل"
+
+msgid "Freelancer Availability"
+msgstr "توفر المستقلين"
+
+msgid "Freelancer Equipment"
+msgstr "معدات المستقل"
+
+msgid "Freelancer Invoicing"
+msgstr "فوترة المستقلين"
+
+msgid "Freelancer Mobile"
+msgstr "جوال المستقل"
+
+msgid "Freelancer Name"
+msgstr "اسم المستقل"
+
+msgid "Freelancer Payment Cycle"
+msgstr "دورة دفع المستقلين"
+
+msgid "Freelancer Performance"
+msgstr "أداء المستقلين"
+
+msgid "Freelancer Profile"
+msgstr "ملف المستقل"
+
+msgid "Freelancer Rating Log"
+msgstr "سجل تقييم المستقل"
+
+msgid "Freelancer Service Item"
+msgstr "صنف خدمة المستقل"
+
+msgid "Freelancer Specialty"
+msgstr "تخصص المستقل"
+
+msgid "Freelancer Supplier Group"
+msgstr "مجموعة موردي المستقلين"
+
+msgid "Freelancer Unavailability"
+msgstr "عدم توفر المستقل"
+
+msgid "Freelancer is not an active member of Framework Agreement {0}."
+msgstr "المستقل ليس عضواً نشطاً في الاتفاقية الإطارية {0}."
+
+msgid "Freelancers"
+msgstr "المستقلون"
+
+msgid "Freelancers per Day"
+msgstr "عدد المستقلين يومياً"
+
+msgid "From"
+msgstr "من"
+
+msgid "From Date"
+msgstr "من تاريخ"
+
+msgid "From Month"
+msgstr "من شهر"
+
+msgid "General"
+msgstr "عام"
+
+msgid "Generate Freelancer Invoices"
+msgstr "إنشاء فواتير المستقلين"
+
+msgid "Gregorian Year"
+msgstr "السنة الميلادية"
+
+msgid "Hijri"
+msgstr "هجري"
+
+msgid "Hijri End Day"
+msgstr "يوم النهاية الهجري"
+
+msgid "Hijri End Month"
+msgstr "شهر النهاية الهجري"
+
+msgid "Hijri Start Day"
+msgstr "يوم البداية الهجري"
+
+msgid "Hijri Start Month"
+msgstr "شهر البداية الهجري"
+
+msgid "Hijri-based Period"
+msgstr "فترة حسب التقويم الهجري"
+
+msgid "Hold initial level until window is full"
+msgstr "تثبيت المستوى الأولي حتى اكتمال النافذة"
+
+msgid "IBAN"
+msgstr "رقم الآيبان"
+
+msgid "ID Number"
+msgstr "رقم الهوية"
+
+msgid "ID Type"
+msgstr "نوع الهوية"
+
+msgid "In Progress"
+msgstr "قيد التنفيذ"
+
+msgid "Inactive"
+msgstr "غير نشط"
+
+msgid "Include Blocked / Inactive"
+msgstr "تضمين المحظورين / غير النشطين"
+
+msgid "Initial Level (onboarding)"
+msgstr "المستوى الأولي (عند التسجيل)"
+
+msgid "Initial Level Method"
+msgstr "طريقة المستوى الأولي"
+
+msgid "Instructions"
+msgstr "التعليمات"
+
+msgid "Issue"
+msgstr "الإصدار"
+
+msgid "Issued"
+msgstr "صادر"
+
+msgid "Issued By"
+msgstr "أصدر بواسطة"
+
+msgid "Issued On"
+msgstr "تاريخ الإصدار"
+
+msgid "Items"
+msgstr "البنود"
+
+msgid "Joined On"
+msgstr "تاريخ الانضمام"
+
+msgid "Justification"
+msgstr "المبرر"
+
+msgid "Last Rated On"
+msgstr "آخر تقييم"
+
+msgid "Late Delivery Penalty (points)"
+msgstr "جزاء التأخر في التسليم (نقاط)"
+
+msgid "Level"
+msgstr "المستوى"
+
+msgid "Level & Rating"
+msgstr "المستوى والتقييم"
+
+msgid "Level After"
+msgstr "المستوى بعد التقييم"
+
+msgid "Level From"
+msgstr "المستوى من"
+
+msgid "Level To"
+msgstr "المستوى إلى"
+
+msgid "Level at Contracting"
+msgstr "المستوى عند التعاقد"
+
+msgid "Level at Issue"
+msgstr "المستوى عند الإصدار"
+
+msgid "Manager"
+msgstr "المدير"
+
+msgid "Manager Assessment (1-5)"
+msgstr "تقييم المدير (1-5)"
+
+msgid "Manager Score"
+msgstr "تقييم المدير"
+
+msgid "Manual"
+msgstr "يدوي"
+
+msgid "Max % Above Peer Average"
+msgstr "أقصى نسبة فوق متوسط الأقران"
+
+msgid "Max Check-in Penalty (points)"
+msgstr "أقصى جزاء للحضور (نقاط)"
+
+msgid "Max Duration (sec)"
+msgstr "أقصى مدة (ثانية)"
+
+msgid "Maximum Rate"
+msgstr "الحد الأقصى للسعر"
+
+msgid "Members"
+msgstr "الأعضاء"
+
+msgid "Min Duration (sec)"
+msgstr "أقل مدة (ثانية)"
+
+msgid "Minimum Acceptance %"
+msgstr "الحد الأدنى للقبول %"
+
+msgid "Minimum Contracting Level"
+msgstr "الحد الأدنى لمستوى التعاقد"
+
+msgid "Minimum Output Met"
+msgstr "تحقق الحد الأدنى للمخرجات"
+
+msgid "Minimum Qty"
+msgstr "الحد الأدنى للكمية"
+
+msgid "Minimum Rate"
+msgstr "الحد الأدنى للسعر"
+
+msgid "Mobile"
+msgstr "الجوال"
+
+msgid "Model / Description"
+msgstr "الطراز / الوصف"
+
+msgid "Month"
+msgstr "الشهر"
+
+msgid "Monthly Shooting-day Quota"
+msgstr "حصة أيام العمل الشهرية"
+
+msgid "Name"
+msgstr "الاسم"
+
+msgid "National ID"
+msgstr "الهوية الوطنية"
+
+msgid "Nationality"
+msgstr "الجنسية"
+
+msgid "Negotiated Rate"
+msgstr "السعر المتفاوض عليه"
+
+msgid "New Rate"
+msgstr "السعر الجديد"
+
+msgid "Notes"
+msgstr "ملاحظات"
+
+msgid "Off"
+msgstr "إجازة"
+
+msgid "Operations"
+msgstr "العمليات"
+
+msgid "Other"
+msgstr "أخرى"
+
+msgid "Output Compliance Score"
+msgstr "درجة مطابقة المخرجات"
+
+msgid "Output Compliance Score (1-5)"
+msgstr "درجة مطابقة المخرجات (1-5)"
+
+msgid "Outputs"
+msgstr "المخرجات"
+
+msgid "Pad with initial level"
+msgstr "إكمال النافذة بالمستوى الأولي"
+
+msgid "Partial Acceptance"
+msgstr "قبول جزئي"
+
+msgid "Passport"
+msgstr "جواز السفر"
+
+msgid "Payment Day of Month"
+msgstr "يوم الدفع من الشهر"
+
+msgid "Pending"
+msgstr "قيد الانتظار"
+
+msgid "Pending Approval"
+msgstr "بانتظار الاعتماد"
+
+msgid "Personal & Contact"
+msgstr "البيانات الشخصية والتواصل"
+
+msgid "Physical"
+msgstr "مادي"
+
+msgid "Planned Days"
+msgstr "الأيام المخططة"
+
+msgid "Portal User"
+msgstr "مستخدم البوابة"
+
+msgid "Portfolio Link"
+msgstr "رابط معرض الأعمال"
+
+msgid "Post-closure Adjustment"
+msgstr "تسوية بعد الإغلاق"
+
+msgid "Post-facto Issue"
+msgstr "إصدار بأثر رجعي"
+
+msgid "Primary Output Unit"
+msgstr "وحدة المخرجات الأساسية"
+
+msgid "Project"
+msgstr "المشروع"
+
+msgid "Project BOQ"
+msgstr "جدول كميات المشروع"
+
+msgid "Project BOQ Item"
+msgstr "بند جدول كميات المشروع"
+
+msgid "Project BOQ Quota"
+msgstr "حصة جدول كميات المشروع"
+
+msgid "Project Contract"
+msgstr "عقد مشروع"
+
+msgid "Projects"
+msgstr "المشاريع"
+
+msgid "Punctuality"
+msgstr "الالتزام بالمواعيد"
+
+msgid "Punctuality Score"
+msgstr "درجة الالتزام بالمواعيد"
+
+msgid "Punctuality Scoring"
+msgstr "احتساب الالتزام بالمواعيد"
+
+msgid "Purchase Invoice"
+msgstr "فاتورة المشتريات"
+
+msgid "Purchase Order Approval"
+msgstr "اعتماد أوامر الشراء"
+
+msgid "QC"
+msgstr "فحص الجودة"
+
+msgid "QC Remarks"
+msgstr "ملاحظات فحص الجودة"
+
+msgid "QC Result"
+msgstr "نتيجة فحص الجودة"
+
+msgid "Qty"
+msgstr "الكمية"
+
+msgid "Qty Rejected"
+msgstr "الكمية المرفوضة"
+
+msgid "Quality"
+msgstr "الجودة"
+
+msgid "Quality & Compliance Terms"
+msgstr "شروط الجودة والامتثال"
+
+msgid "Quality Acceptance"
+msgstr "قبول الجودة"
+
+msgid "Quality Bands"
+msgstr "نطاقات الجودة"
+
+msgid "Quality Score"
+msgstr "درجة الجودة"
+
+msgid "Quality Score Bands"
+msgstr "نطاقات درجة الجودة"
+
+msgid "Quota (days)"
+msgstr "الحصة (أيام)"
+
+msgid "Quota Alert at %"
+msgstr "تنبيه الحصة عند %"
+
+msgid "Quota Consumption"
+msgstr "استهلاك الحصص"
+
+msgid "Quota Control"
+msgstr "التحكم في الحصص"
+
+msgid "Quota Overrun"
+msgstr "تجاوز الحصة"
+
+msgid "Quotas"
+msgstr "الحصص"
+
+msgid "Rate"
+msgstr "السعر"
+
+msgid "Rate Band"
+msgstr "نطاق الأسعار"
+
+msgid "Rate Band Item"
+msgstr "بند نطاق الأسعار"
+
+msgid "Rate Card"
+msgstr "بطاقة الأسعار"
+
+msgid "Rate Card Item"
+msgstr "بند بطاقة الأسعار"
+
+msgid "Rate Change"
+msgstr "تغيير السعر"
+
+msgid "Rate Depends on Equipment"
+msgstr "السعر يعتمد على المعدات"
+
+msgid "Rate Season"
+msgstr "موسم التسعير"
+
+msgid "Rate Source"
+msgstr "مصدر السعر"
+
+msgid "Rated Orders"
+msgstr "الأوامر المقيمة"
+
+msgid "Rated Work Orders"
+msgstr "أوامر العمل المقيمة"
+
+msgid "Rates"
+msgstr "الأسعار"
+
+msgid "Rating"
+msgstr "التقييم"
+
+msgid "Rating History"
+msgstr "سجل التقييمات"
+
+msgid "Rating weights must total 100%. Current total: {0}%"
+msgstr "يجب أن يكون مجموع أوزان التقييم 100%. المجموع الحالي: {0}%"
+
+msgid "Reason"
+msgstr "السبب"
+
+msgid "Reason (Arabic)"
+msgstr "السبب (عربي)"
+
+msgid "Receipt"
+msgstr "الاستلام"
+
+msgid "Record Check-in"
+msgstr "تسجيل الحضور"
+
+msgid "Record Delivery"
+msgstr "تسجيل التسليم"
+
+msgid "Record QC"
+msgstr "تسجيل فحص الجودة"
+
+msgid "Record Quality Acceptance"
+msgstr "تسجيل قبول الجودة"
+
+msgid "Recorded By"
+msgstr "سجل بواسطة"
+
+msgid "Recorded On"
+msgstr "تاريخ التسجيل"
+
+msgid "Reference"
+msgstr "المرجع"
+
+msgid "Reference Type"
+msgstr "نوع المرجع"
+
+msgid "Reinstatement"
+msgstr "إعادة التفعيل"
+
+msgid "Rejected"
+msgstr "مرفوض"
+
+msgid "Rejected %"
+msgstr "نسبة الرفض %"
+
+msgid "Rejected Days Consume Quota"
+msgstr "الأيام المرفوضة تستهلك الحصة"
+
+msgid "Rejection Reason"
+msgstr "سبب الرفض"
+
+msgid "Rejection Reasons"
+msgstr "أسباب الرفض"
+
+msgid "Rejections"
+msgstr "حالات الرفض"
+
+msgid "Rejections per Month to Suspend"
+msgstr "عدد حالات الرفض الشهرية للإيقاف"
+
+msgid "Remaining"
+msgstr "المتبقي"
+
+msgid "Remarks"
+msgstr "ملاحظات"
+
+msgid "Replace the current outputs and checklist with the template?"
+msgstr "استبدال المخرجات وقائمة الفحص الحالية بالقالب؟"
+
+msgid "Reports"
+msgstr "التقارير"
+
+msgid "Request Exception"
+msgstr "طلب استثناء"
+
+msgid "Request Reinstatement"
+msgstr "طلب إعادة تفعيل"
+
+msgid "Requested By"
+msgstr "طلب بواسطة"
+
+msgid "Require Finance Budget Check"
+msgstr "اشتراط تأكيد المالية للميزانية"
+
+msgid "Required"
+msgstr "إلزامي"
+
+msgid "Required Format(s)"
+msgstr "الصيغ المطلوبة"
+
+msgid "Required Output"
+msgstr "المخرج المطلوب"
+
+msgid "Required Outputs"
+msgstr "المخرجات المطلوبة"
+
+msgid "Required Outputs & Instructions"
+msgstr "المخرجات المطلوبة والتعليمات"
+
+msgid "Required sign-off missing: {0}"
+msgstr "توقيع إلزامي مفقود: {0}"
+
+msgid "Requires an approved '{0}' exception."
+msgstr "يتطلب استثناء '{0}' معتمداً."
+
+msgid "Residence Permit"
+msgstr "تصريح الإقامة"
+
+msgid "Resolution / Quality"
+msgstr "الدقة / الجودة"
+
+msgid "Return to Review"
+msgstr "إعادة للمراجعة"
+
+msgid "Role"
+msgstr "الدور"
+
+msgid "Rolling Rating Window (orders)"
+msgstr "نافذة التقييم المتحركة (أوامر)"
+
+msgid "Save QC"
+msgstr "حفظ فحص الجودة"
+
+msgid "Save the work order before signing."
+msgstr "احفظ أمر العمل قبل التوقيع."
+
+msgid "Scheduled Check-in"
+msgstr "موعد الحضور"
+
+msgid "Score (1-5)"
+msgstr "الدرجة (1-5)"
+
+msgid "Season"
+msgstr "الموسم"
+
+msgid "Season (Arabic)"
+msgstr "الموسم (عربي)"
+
+msgid "Season Calendar"
+msgstr "تقويم المواسم"
+
+msgid "Season Calendar Period"
+msgstr "فترة تقويم المواسم"
+
+msgid "Season Periods"
+msgstr "فترات المواسم"
+
+msgid "Segregation of duties: you cannot approve your own exception request."
+msgstr "الفصل بين المهام: لا يمكنك اعتماد طلب الاستثناء الخاص بك."
+
+msgid "Segregation of duties: you issued or recorded this work order, so you cannot perform this step."
+msgstr "الفصل بين المهام: لقد أصدرت أو سجلت أمر العمل هذا، لذلك لا يمكنك تنفيذ هذه الخطوة."
+
+msgid "Setup"
+msgstr "الإعداد"
+
+msgid "Sign Off"
+msgstr "توقيع"
+
+msgid "Sign-off Steps"
+msgstr "خطوات التوقيع"
+
+msgid "Sign-off required"
+msgstr "التوقيع مطلوب"
+
+msgid "Sign-offs"
+msgstr "التوقيعات"
+
+msgid "Signed By"
+msgstr "وقع بواسطة"
+
+msgid "Signed On"
+msgstr "تاريخ التوقيع"
+
+msgid "Size (GB)"
+msgstr "الحجم (جيجابايت)"
+
+msgid "Source"
+msgstr "المصدر"
+
+msgid "Specialty"
+msgstr "التخصص"
+
+msgid "Specialty (Arabic)"
+msgstr "التخصص (عربي)"
+
+msgid "Stage"
+msgstr "المرحلة"
+
+msgid "Start Date"
+msgstr "تاريخ البداية"
+
+msgid "Status"
+msgstr "الحالة"
+
+msgid "Status Reason"
+msgstr "سبب الحالة"
+
+msgid "Step"
+msgstr "الخطوة"
+
+msgid "Suggest Hijri Periods"
+msgstr "اقتراح الفترات الهجرية"
+
+msgid "Supplier"
+msgstr "المورد"
+
+msgid "Suspended"
+msgstr "موقوف"
+
+msgid "Tax Resident"
+msgstr "مقيم ضريبياً"
+
+msgid "Technical Checklist"
+msgstr "قائمة الفحص الفني"
+
+msgid "Template Name"
+msgstr "اسم القالب"
+
+msgid "Template Name (Arabic)"
+msgstr "اسم القالب (عربي)"
+
+msgid "Tier 1 Approver Role"
+msgstr "دور معتمد المستوى الأول"
+
+msgid "Tier 1 Limit (base currency)"
+msgstr "حد المستوى الأول (العملة الأساسية)"
+
+msgid "Tier 2 Approver Role"
+msgstr "دور معتمد المستوى الثاني"
+
+msgid "Tier 2 Limit (base currency)"
+msgstr "حد المستوى الثاني (العملة الأساسية)"
+
+msgid "Title"
+msgstr "العنوان"
+
+msgid "To"
+msgstr "إلى"
+
+msgid "To Date"
+msgstr "إلى تاريخ"
+
+msgid "To Month"
+msgstr "إلى شهر"
+
+msgid "UOM"
+msgstr "وحدة القياس"
+
+msgid "Unit"
+msgstr "الوحدة"
+
+msgid "Valid From"
+msgstr "ساري من"
+
+msgid "Valid To"
+msgstr "ساري حتى"
+
+msgid "View"
+msgstr "عرض"
+
+msgid "Weight: Manager Assessment"
+msgstr "الوزن: تقييم المدير"
+
+msgid "Weight: Output Compliance"
+msgstr "الوزن: مطابقة المخرجات"
+
+msgid "Weight: Punctuality"
+msgstr "الوزن: الالتزام بالمواعيد"
+
+msgid "Weight: Quality"
+msgstr "الوزن: الجودة"
+
+msgid "Weighted"
+msgstr "المرجح"
+
+msgid "Weighted Score"
+msgstr "الدرجة المرجحة"
+
+msgid "Will block on issue"
+msgstr "سيتم المنع عند الإصدار"
+
+msgid "Within Band"
+msgstr "ضمن النطاق"
+
+msgid "Work / Task Type"
+msgstr "نوع العمل / المهمة"
+
+msgid "Work Date"
+msgstr "تاريخ العمل"
+
+msgid "Work Order"
+msgstr "أمر العمل"
+
+msgid "Work Order Sign-offs"
+msgstr "توقيعات أوامر العمل"
+
+msgid "Work Order Template"
+msgstr "قالب أمر العمل"
+
+msgid "Work Order Template Check"
+msgstr "بند فحص قالب أمر العمل"
+
+msgid "Work Orders"
+msgstr "أوامر العمل"
+
+msgid "Work Type"
+msgstr "نوع العمل"
+
+msgid "Work Type (Arabic)"
+msgstr "نوع العمل (عربي)"
+
+msgid "Work Zone"
+msgstr "منطقة العمل"
+
+msgid "Work Zone / Location"
+msgstr "منطقة / موقع العمل"
+
+msgid "Work date {0} is in the past. Work Orders must be issued before the work."
+msgstr "تاريخ العمل {0} في الماضي. يجب إصدار أوامر العمل قبل تنفيذ العمل."
+
+msgid "Workload Balance Rule"
+msgstr "قاعدة توازن عبء العمل"
+
+msgid "Workload Basis"
+msgstr "أساس عبء العمل"
+
+msgid "Workload Overrun"
+msgstr "تجاوز عبء العمل"
+
+msgid "You are not permitted to perform this action."
+msgstr "غير مسموح لك بتنفيذ هذا الإجراء."
+
+msgid "Zone"
+msgstr "المنطقة"
+
+msgid "Zone (Arabic)"
+msgstr "المنطقة (عربي)"

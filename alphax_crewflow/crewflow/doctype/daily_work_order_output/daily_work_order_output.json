@@ -1,0 +1,111 @@
+{
+ "actions": [],
+ "allow_rename": 0,
+ "creation": "2026-11-26 10:00:00.000000",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "output_type",
+  "unit",
+  "min_qty",
+  "file_format",
+  "resolution",
+  "min_duration_sec",
+  "max_duration_sec",
+  "delivered_qty",
+  "accepted_qty",
+  "delivered_size_gb",
+  "delivered_formats"
+ ],
+ "fields": [
+  {
+   "fieldname": "output_type",
+   "fieldtype": "Data",
+   "label": "Required Output",
+   "reqd": 1,
+   "in_list_view": 1,
+   "description": "e.g. Video clips, Photos"
+  },
+  {
+   "fieldname": "unit",
+   "fieldtype": "Data",
+   "label": "Unit"
+  },
+  {
+   "fieldname": "min_qty",
+   "fieldtype": "Int",
+   "label": "Minimum Qty",
+   "in_list_view": 1
+  },
+  {
+   "fieldname": "file_format",
+   "fieldtype": "Data",
+   "label": "Required Format(s)",
+   "in_list_view": 1,
+   "description": "e.g. MP4 or JPEG + RAW"
+  },
+  {
+   "fieldname": "resolution",
+   "fieldtype": "Data",
+   "label": "Resolution / Quality",
+   "description": "e.g. 4K"
+  },
+  {
+   "fieldname": "min_duration_sec",
+   "fieldtype": "Int",
+   "label": "Min Duration (sec)"
+  },
+  {
+   "fieldname": "max_duration_sec",
+   "fieldtype": "Int",
+   "label": "Max Duration (sec)"
+  },
+  {
+   "fieldname": "delivered_qty",
+   "fieldtype": "Int",
+   "label": "Delivered",
+   "read_only": 1,
+   "allow_on_submit": 1,
+   "in_list_view": 1
+  },
+  {
+   "fieldname": "accepted_qty",
+   "fieldtype": "Int",
+   "label": "Accepted",
+   "read_only": 1,
+   "allow_on_submit": 1,
+   "in_list_view": 1
+  },
+  {
+   "fieldname": "delivered_size_gb",
+   "fieldtype": "Float",
+   "label": "Delivered Size (GB)",
+   "read_only": 1,
+   "allow_on_submit": 1,
+   "precision": "3"
+  },
+  {
+   "fieldname": "delivered_formats",
+   "fieldtype": "Data",
+   "label": "Delivered Format(s)",
+   "read_only": 1,
+   "allow_on_submit": 1
+  }
+ ],
+ "index_web_pages_for_search": 0,
+ "istable": 1,
+ "issingle": 0,
+ "is_submittable": 0,
+ "links": [],
+ "modified": "2026-11-26 10:00:00.000000",
+ "modified_by": "Administrator",
+ "module": "CrewFlow",
+ "name": "Daily Work Order Output",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 0
+}
